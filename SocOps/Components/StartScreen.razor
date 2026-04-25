@@ -1,21 +1,23 @@
-<div class="flex flex-col items-center justify-center min-h-full p-6 bg-gray-50">
-    <div class="text-center max-w-sm">
-        <h1 class="text-4xl font-bold text-gray-900 mb-2">Soc Ops</h1>
-        <p class="text-lg text-gray-600 mb-8">Social Bingo</p>
+<div class="flex flex-col items-center justify-center min-h-full p-6 mc-page">
+    <div class="w-full max-w-md mx-auto p-6 border-4 border-mc-block rounded-xl bg-mc-panel shadow-mc">
+        <div class="text-center mb-6">
+            <h1 class="text-5xl font-bold text-mc-wood mb-2">Soc Ops</h1>
+            <p class="text-lg text-mc-stone">Social Bingo adventure</p>
+        </div>
 
-        <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200 mb-8">
-            <h2 class="font-semibold text-gray-800 mb-3">How to play</h2>
-            <ul class="text-left text-gray-600 text-sm space-y-2">
+        <div class="bg-mc-dirt-soft border-4 border-mc-block rounded-lg p-5 mb-7">
+            <h2 class="font-bold text-mc-wood text-xl mb-3">Quest Log</h2>
+            <ul class="text-left text-mc-stone text-sm space-y-2">
                 <li>• Find people who match the questions</li>
-                <li>• Tap a square when you find a match</li>
-                <li>• Get 5 in a row to win!</li>
+                <li>• Tap a block when the trait is found</li>
+                <li>• Complete a row to win the bingo challenge</li>
             </ul>
         </div>
 
         <button
             @onclick="OnStart"
-            class="w-full bg-accent text-white font-semibold py-4 px-8 rounded-lg text-lg active:bg-accent-light transition-colors">
-            Start Game
+            class="w-full bg-mc-wood text-white font-bold py-4 px-6 rounded-sm border-4 border-mc-block shadow-mc text-lg transition-all duration-150">
+            Start Adventure
         </button>
     </div>
 </div>
